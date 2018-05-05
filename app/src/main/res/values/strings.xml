@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">داستان کودکان</string>
+    <string name="confirm_exit">برای خروج مجددا دکمه را فشار دهید</string>
+    <string name="single_permission_text">درخواست پرمیشن</string>
+    <string name="order">سفارش این محصول</string>
+    <string name="addtobasket">افزودن به سبد خرید</string>
+    <string name="choose_shipping">روش خرید</string>
+    <string name="title_please_wait">لطفا صبر کنید</string>
+    <string name="content_submit_checkout">در حال ارسال اطلاعات&#8230;</string>
+    <string name="invalid_email">ایمیل اشتباست</string>
+    <string name="invalid_name">نام نامعتبر</string>
+    <string name="confirm_checkout">برای خرید مطمین هستید؟</string>
+    <string name="YES">بله</string>
+    <string name="NO">خیر</string>
+    <string name="confirmation">آیا مایل به دانلود داستان هستید؟</string>
+
+
+    <string name="invalid_phone">شماره تماس اشتباست</string>
+    <string name="invalid_address">ادرس نامعتبر است</string>
+    <string name="invalid_shipping">روش خرید انتخاب نشده</string>
+
+
+    <string name="email_hint">پست الکترونیکی</string>
+    <string name="pass_hint">کلمه عبور</string>
+    <string name="connectto">لطفا اتصال دستگاه به اینترنت را بررسی کنید!</string>
+</resources>

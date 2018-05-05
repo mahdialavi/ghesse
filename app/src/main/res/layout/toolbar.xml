@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:background="#0e1451"
+            android:layout_height="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/playmain"
+                android:src="@drawable/volume"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="24dp"
+                    android:text="داستان کودکان"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/imagetoolbar"
+                    android:src="@drawable/logo2"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <ImageView
+                    android:id="@+id/hambergurmenu"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:padding="13dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/menu" />
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:textColor="#2d2d2d"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:text="- - - -"
+            android:padding="16dp"
+            android:id="@+id/txtProductTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="#cdcccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/txtprice"
+                android:textAlignment="center"
+                android:text="00"
+                android:padding="16dp"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="قیمت"
+                android:padding="16dp"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:background="#cdcccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/txtweight"
+                android:textAlignment="center"
+                android:text="00"
+                android:padding="16dp"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="وزن"
+                android:padding="16dp"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <ImageView
+            android:background="#cdcccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+
+
+        <ImageView
+            android:background="#cdcccc"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:textSize="18dp"
+            android:id="@+id/btnAddBasket"
+            android:background="#06a4b3"
+            android:text="افزودن به سبد خرید"
+            android:textColor="#ffffff"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>

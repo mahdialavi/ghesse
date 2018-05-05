@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/hero"
+        android:icon="@drawable/menu"
+        android:title="هیرو"/>
+
+    <item
+        android:icon="@drawable/menu"
+        android:title="آیتم ها"/>
+
+    <item android:id="@+id/serch"
+        android:icon="@drawable/menu"
+        android:title="جستجو"/>
+
+    <item android:id="@+id/setting"
+        android:icon="@drawable/menu"
+        android:title="تنظیمات"/>
+</menu>
